@@ -1,0 +1,24 @@
+This database was scraped from the domain http://www.gazzetta.it. It contains information about all the soccer games played in this season of Italian Serie A until 2016/01/31.
+
+The folder 'Weeks' contains all the results of all the weeks in tables whose columns are:
+"date" --> the date the game was played
+"home_team" --> the team playing at home
+"away_team" --> the team playing away
+"result" --> the result of the game
+
+The folder 'Matches' contains all the data about single games, divided by weeks. The table of each game has the two teams playing the game as the rows and the following columns:
+"goals" --> goals scored by the team
+"fouls" --> fouls made by the team
+"corners" --> corners kicks taken by the team
+"shots_on" --> shots on target made by the team
+"shots_off" --> shots off target made by the team
+"offsides" --> offsides called to the team
+"posts" --> posts hit by the team
+"possession" --> ball possession percentage of the team
+
+The folder 'Teams' has a table for each team with the games played by that team as the rows and the following columns:
+"goals", "fouls","corners","shots_on","shots_off","offsides","posts","possession" --> with meaning as before
+"goals_a","fouls_a","corners_a","shots_on_a","shots_off_a","offsides_a","posts_a" --> with meaning as before made by the opposing team (_a = against)
+"home" --> TRUE if the team played the game at home, FALSE if they played away
+
+The folder 'Exploratory analysis' contains one table with all the previous columns and all the games played by all teams as the rows.
