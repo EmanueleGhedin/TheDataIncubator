@@ -1,4 +1,5 @@
-This database was scraped from the domain http://www.gazzetta.it. It contains information about all the soccer games played in this season of Italian Serie A until 2016/01/31.
+This database was scraped from the domain http://www.gazzetta.it. It contains information about all the soccer games played in this season of Italian Serie A until 2016/01/31. It can be downloaded here:
+https://dl.dropboxusercontent.com/u/100174419/Soccer.zip
 
 The folder 'Weeks' contains all the results of all the weeks in tables whose columns are:
 "date" --> the date the game was played
